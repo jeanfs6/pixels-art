@@ -25,7 +25,6 @@ function selecionaCores (event) {
 pixelBoard.addEventListener("click", pintarPixels)
 
     
-    console.log(corSelecionada);
 function pintarPixels (event) {
     const elemento = event.target
     if (elemento.id === "pixel-board") {
