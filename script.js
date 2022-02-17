@@ -22,7 +22,7 @@ function selecionaCores (event) {
     elemento.classList.add("selected");
     console.log(elemento.id);
 }
-pixelBoard.addEventListener("click", pintarPixels)
+    pixelBoard.addEventListener("click", pintarPixels)
 
     
 function pintarPixels (event) {
@@ -32,8 +32,8 @@ function pintarPixels (event) {
     }
     
      const corSelecionada = document.querySelector(".selected")
-     const cor = corSelecionada.style.backgroundColor;
-     elemento.style.backgroundColor = cor;
+      const style = getComputedStyle(corSelecionada);
+          elemento.style.backgroundColor = style.backgroundColor;
 }
     
     
