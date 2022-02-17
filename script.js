@@ -1,14 +1,15 @@
 const corPreta = document.querySelector("#black");
-const corAzul = document.querySelector("#blue");
-const corVerde = document.querySelector("#green");
-const corAmarelo = document.querySelector("#yellow");
+
 const colorPalette = document.querySelector("#color-palette");
 
 const pixelBoard = document.querySelector("#pixel-board");
 
 window.onload = corPreta.classList.add("selected");
 
+
+
 colorPalette.addEventListener("click", selecionaCores);
+
 
 function selecionaCores (event) {
     const elemento = event.target
@@ -20,9 +21,23 @@ function selecionaCores (event) {
     corSelecionada.classList.remove("selected");
     elemento.classList.add("selected");
     console.log(elemento.id);
-    
-    
 }
+pixelBoard.addEventListener("click", pintarPixels)
+
+    
+    console.log(corSelecionada);
+function pintarPixels (event) {
+    const elemento = event.target
+    if (elemento.id === "pixel-board") {
+        return;
+    }
+    
+     const corSelecionada = document.querySelector(".selected")
+     const cor = corSelecionada.style.backgroundColor;
+     elemento.style.backgroundColor = cor;
+}
+    
+    
 
 function criacaoPixels(tamanho) {
     for (index =0; index < tamanho; index +=1) {
