@@ -1,13 +1,46 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+<h1 align="center">Projeto App Pixels Art</h1>
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Neste projeto desenvolvi uma página web que contém uma paleta de cores funcional que poderá ser utilizada para criar desenhos em pixels. 
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+
+### Tecnologias:
+
+Esse projeto foi desenvolvido com a seguinte técnologias:
+
+- HTML5
+- CSS3
+- JAVASCRIPT
+
+[reactjs]: https://reactjs.org
+
+### Habilidades Desenvolvidas Durante o Projeto:
+
+- Manipular o DOM
+- Manipular o JavaScript
+
+
+### Instalação do Projeto Localmente
+
+1 - Abra o terminal e em seguida crie um diretório utilizando o comando ***mkdir***.Ex:
+```javascript
+  mkdir PixelsArt
+```
+2 - Entre no diretório com o comando ***cd***.Ex:
+```javascript
+  cd PixelsArt
+```
+3 - Após entrar no diretório criado, clone o projeto utilizando o comando ***git clone***. Ex:
+```javascript
+  git clone git@github.com:jeanfs6/project-pixels-art.git
+```
+
+4 - Acesse o diretório do projeto clonado, utilizando o comando ***cd***. Ex:
+```javascript
+  cd project-pixels-art
+```
+5 - Para visualização da página, abra o vscode e utilize a extensão live server. Não é necessário dar um npm install.
+
+
+
+
+
